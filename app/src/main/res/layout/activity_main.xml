@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_version_number"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        app:srcCompat="@drawable/logo_xxxhdpi"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/label_version_number" />
+
+    <Button
+        android:id="@+id/gp_button"
+        android:drawableLeft="@drawable/gp_icon"
+        android:text="@string/label_gp_button"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape"
+        android:layout_above="@+id/ph_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:text="@string/label_pharmacist_button"
+        android:drawableLeft="@drawable/ph_icon"
+        android:id="@+id/ph_button"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/label_version_number"
+        android:layout_alignStart="@+id/gp_button" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PODHMR</string>
+
+    <string name="label_gp_button">ENTER GP</string>
+    <string name="label_pharmacist_button">ENTER PHARMACIST</string>
+
+    <string name="label_ph_map_button">View map</string>
+    <string name="label_ph_list_button">View list</string>
+    <string name="label_ph_history_button">View history</string>
+    <string name="label_ph_accepted_button">View accepted</string>
+
+
+    <string name="google_maps_api_key">AIzaSyC_epuyNad-MYvwueQFS3BSqDwq-dtpcb0</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- PERMISSION STRINGS -->
+    <string name="rationale_permission_internet">Need internet to find location, ads and access Google Maps</string>
+    <string name="rationale_permission_coarse">Need to get approximate location and use Google Maps</string>
+    <string name="rationale_permission_fine">Need internet to find accurate location and for Google Maps</string>
+    <string name="permission_features_enabled">Features enabled</string>
+    <!-- END  PERMISSION STRINGS -->
+
+</resources>
